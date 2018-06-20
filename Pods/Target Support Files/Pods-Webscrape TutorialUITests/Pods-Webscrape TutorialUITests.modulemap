@@ -1,6 +1,0 @@
-framework module Pods_Webscrape_TutorialUITests {
-  umbrella header "Pods-Webscrape TutorialUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
