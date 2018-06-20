@@ -14,6 +14,12 @@
 		0E1CBD2A20D32953006E59BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E1CBD2820D32953006E59BA /* LaunchScreen.storyboard */; };
 		0E1CBD3520D32953006E59BA /* Webscrape_TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1CBD3420D32953006E59BA /* Webscrape_TutorialTests.swift */; };
 		0E1CBD4020D32953006E59BA /* Webscrape_TutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1CBD3F20D32953006E59BA /* Webscrape_TutorialUITests.swift */; };
+		0E1CBD4E20D33006006E59BA /* EmailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1CBD4D20D33006006E59BA /* EmailsVC.swift */; };
+		0E86B2A520D5BEC000862144 /* GmailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E86B2A420D5BEC000862144 /* GmailResponse.swift */; };
+		0E86B2A720D5C48200862144 /* Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E86B2A620D5C48200862144 /* Email.swift */; };
+		816494BF76940DF298C75F7C /* Pods_Webscrape_Tutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15FCCA242D0DCC50B66C2997 /* Pods_Webscrape_Tutorial.framework */; };
+		965CEF313B7617513B5EBCB5 /* Pods_Webscrape_TutorialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3392CD3DEFD7A0DB4F30B6A /* Pods_Webscrape_TutorialUITests.framework */; };
+		D1D9560FF19A7806B4BC0B04 /* Pods_Webscrape_TutorialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3A26FB911D11AD03CE8946 /* Pods_Webscrape_TutorialTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01DC3E4A03A3E88A1429CEBB /* Pods-Webscrape TutorialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Webscrape TutorialUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Webscrape TutorialUITests/Pods-Webscrape TutorialUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0D5DD3856FABA55D9DFB94FC /* Pods-Webscrape Tutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Webscrape Tutorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-Webscrape Tutorial/Pods-Webscrape Tutorial.release.xcconfig"; sourceTree = "<group>"; };
 		0E1CBD1C20D32953006E59BA /* Webscrape Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Webscrape Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E1CBD1F20D32953006E59BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E1CBD2120D32953006E59BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,16 @@
 		0E1CBD3B20D32953006E59BA /* Webscrape TutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Webscrape TutorialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E1CBD3F20D32953006E59BA /* Webscrape_TutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webscrape_TutorialUITests.swift; sourceTree = "<group>"; };
 		0E1CBD4120D32953006E59BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E1CBD4D20D33006006E59BA /* EmailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailsVC.swift; sourceTree = "<group>"; };
+		0E86B2A420D5BEC000862144 /* GmailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GmailResponse.swift; sourceTree = "<group>"; };
+		0E86B2A620D5C48200862144 /* Email.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Email.swift; sourceTree = "<group>"; };
+		15FCCA242D0DCC50B66C2997 /* Pods_Webscrape_Tutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Webscrape_Tutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2168E288A6E3648A0409ADA7 /* Pods-Webscrape Tutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Webscrape Tutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Webscrape Tutorial/Pods-Webscrape Tutorial.debug.xcconfig"; sourceTree = "<group>"; };
+		2EF0B9A2236687FA276FF662 /* Pods-Webscrape TutorialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Webscrape TutorialTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Webscrape TutorialTests/Pods-Webscrape TutorialTests.debug.xcconfig"; sourceTree = "<group>"; };
+		948FD54078F92F1268C18146 /* Pods-Webscrape TutorialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Webscrape TutorialTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Webscrape TutorialTests/Pods-Webscrape TutorialTests.release.xcconfig"; sourceTree = "<group>"; };
+		B5E45327EE2C3287CB2939F2 /* Pods-Webscrape TutorialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Webscrape TutorialUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Webscrape TutorialUITests/Pods-Webscrape TutorialUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C3392CD3DEFD7A0DB4F30B6A /* Pods_Webscrape_TutorialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Webscrape_TutorialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE3A26FB911D11AD03CE8946 /* Pods_Webscrape_TutorialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Webscrape_TutorialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				816494BF76940DF298C75F7C /* Pods_Webscrape_Tutorial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1D9560FF19A7806B4BC0B04 /* Pods_Webscrape_TutorialTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				965CEF313B7617513B5EBCB5 /* Pods_Webscrape_TutorialUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +102,8 @@
 				0E1CBD3320D32953006E59BA /* Webscrape TutorialTests */,
 				0E1CBD3E20D32953006E59BA /* Webscrape TutorialUITests */,
 				0E1CBD1D20D32953006E59BA /* Products */,
+				7ECFD9C0BB79D36B799B690E /* Pods */,
+				78DFC56B6D49BDD0E184A8F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +122,9 @@
 			children = (
 				0E1CBD1F20D32953006E59BA /* AppDelegate.swift */,
 				0E1CBD2120D32953006E59BA /* ViewController.swift */,
+				0E86B2A620D5C48200862144 /* Email.swift */,
+				0E1CBD4D20D33006006E59BA /* EmailsVC.swift */,
+				0E86B2A420D5BEC000862144 /* GmailResponse.swift */,
 				0E1CBD2320D32953006E59BA /* Main.storyboard */,
 				0E1CBD2620D32953006E59BA /* Assets.xcassets */,
 				0E1CBD2820D32953006E59BA /* LaunchScreen.storyboard */,
@@ -125,6 +151,29 @@
 			path = "Webscrape TutorialUITests";
 			sourceTree = "<group>";
 		};
+		78DFC56B6D49BDD0E184A8F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15FCCA242D0DCC50B66C2997 /* Pods_Webscrape_Tutorial.framework */,
+				DE3A26FB911D11AD03CE8946 /* Pods_Webscrape_TutorialTests.framework */,
+				C3392CD3DEFD7A0DB4F30B6A /* Pods_Webscrape_TutorialUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7ECFD9C0BB79D36B799B690E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2168E288A6E3648A0409ADA7 /* Pods-Webscrape Tutorial.debug.xcconfig */,
+				0D5DD3856FABA55D9DFB94FC /* Pods-Webscrape Tutorial.release.xcconfig */,
+				2EF0B9A2236687FA276FF662 /* Pods-Webscrape TutorialTests.debug.xcconfig */,
+				948FD54078F92F1268C18146 /* Pods-Webscrape TutorialTests.release.xcconfig */,
+				B5E45327EE2C3287CB2939F2 /* Pods-Webscrape TutorialUITests.debug.xcconfig */,
+				01DC3E4A03A3E88A1429CEBB /* Pods-Webscrape TutorialUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E1CBD4420D32953006E59BA /* Build configuration list for PBXNativeTarget "Webscrape Tutorial" */;
 			buildPhases = (
+				5718E48DE48812E57EDFE15E /* [CP] Check Pods Manifest.lock */,
 				0E1CBD1820D32953006E59BA /* Sources */,
 				0E1CBD1920D32953006E59BA /* Frameworks */,
 				0E1CBD1A20D32953006E59BA /* Resources */,
+				AEEA2765AF262434D8CEE3A2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E1CBD4720D32953006E59BA /* Build configuration list for PBXNativeTarget "Webscrape TutorialTests" */;
 			buildPhases = (
+				ACAE531A4C7667A8A1B40D52 /* [CP] Check Pods Manifest.lock */,
 				0E1CBD2C20D32953006E59BA /* Sources */,
 				0E1CBD2D20D32953006E59BA /* Frameworks */,
 				0E1CBD2E20D32953006E59BA /* Resources */,
@@ -167,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E1CBD4A20D32953006E59BA /* Build configuration list for PBXNativeTarget "Webscrape TutorialUITests" */;
 			buildPhases = (
+				12C3C37005C14683A6286718 /* [CP] Check Pods Manifest.lock */,
 				0E1CBD3720D32953006E59BA /* Sources */,
 				0E1CBD3820D32953006E59BA /* Frameworks */,
 				0E1CBD3920D32953006E59BA /* Resources */,
@@ -187,6 +240,9 @@
 		0E1CBD1420D32953006E59BA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					Email,
+				);
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = DuCharme;
@@ -254,13 +310,91 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12C3C37005C14683A6286718 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Webscrape TutorialUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5718E48DE48812E57EDFE15E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Webscrape Tutorial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACAE531A4C7667A8A1B40D52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Webscrape TutorialTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEEA2765AF262434D8CEE3A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Webscrape Tutorial/Pods-Webscrape Tutorial-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Webscrape Tutorial/Pods-Webscrape Tutorial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0E1CBD1820D32953006E59BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0E1CBD2220D32953006E59BA /* ViewController.swift in Sources */,
+				0E86B2A720D5C48200862144 /* Email.swift in Sources */,
+				0E1CBD4E20D33006006E59BA /* EmailsVC.swift in Sources */,
 				0E1CBD2020D32953006E59BA /* AppDelegate.swift in Sources */,
+				0E86B2A520D5BEC000862144 /* GmailResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +558,7 @@
 		};
 		0E1CBD4520D32953006E59BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2168E288A6E3648A0409ADA7 /* Pods-Webscrape Tutorial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +573,7 @@
 		};
 		0E1CBD4620D32953006E59BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D5DD3856FABA55D9DFB94FC /* Pods-Webscrape Tutorial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +588,7 @@
 		};
 		0E1CBD4820D32953006E59BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EF0B9A2236687FA276FF662 /* Pods-Webscrape TutorialTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +605,7 @@
 		};
 		0E1CBD4920D32953006E59BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 948FD54078F92F1268C18146 /* Pods-Webscrape TutorialTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +622,7 @@
 		};
 		0E1CBD4B20D32953006E59BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5E45327EE2C3287CB2939F2 /* Pods-Webscrape TutorialUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +638,7 @@
 		};
 		0E1CBD4C20D32953006E59BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01DC3E4A03A3E88A1429CEBB /* Pods-Webscrape TutorialUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
